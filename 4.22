@@ -1,0 +1,11 @@
+import math
+# Create function here
+def factorial(numb):
+    '''this function is to get a factorial of any number'''
+    a = math.factorial(numb)
+    return a
+
+if __name__ == "__main__":
+    # Put code to test function indented under here.  If not your tests may fail.
+    pass
+    print(factorial(int(input())))
